@@ -28,3 +28,9 @@ p {
 button:hover {
   background-color: red;
 }
+
+#quote {
+  margin-left: 55vw;
+  margin-top: -200px;
+  margin-right: 100px;
+}
