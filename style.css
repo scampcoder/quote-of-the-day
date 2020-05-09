@@ -4,11 +4,13 @@ body {
   font-family: 'Great Vibes', cursive;
 }
 div {
-  text-align: center;
+  margin-top: 200px;
+  margin-left: 340px;
+  margin-right: 800px;
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 65px;
 }
 
 button {
@@ -16,6 +18,7 @@ button {
   height: 80px;
   background-color: blue;
   color: white;
+  margin-left: 45px;
 }
 
 p {
