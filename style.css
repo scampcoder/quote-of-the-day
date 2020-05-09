@@ -3,20 +3,20 @@ body {
   background-size: cover;
   font-family: 'Great Vibes', cursive;
 }
-div {
+#main {
   margin-top: 200px;
-  margin-left: 340px;
+  margin-left: 350px;
   margin-right: 800px;
 }
 
 h1 {
-  font-size: 65px;
+  font-size: 60px;
 }
 
 button {
   width: 250px;
   height: 80px;
-  background-color: blue;
+  background-color: green;
   color: white;
   margin-left: 45px;
 }
@@ -26,5 +26,5 @@ p {
 }
 
 button:hover {
-  background-color: green;
+  background-color: red;
 }
