@@ -1,4 +1,4 @@
-const quotes = [
+var quotes = [
   {
     "author": "Oscar Wilde",
     "quote": "Be yourself; everyone else is already taken."
@@ -103,8 +103,18 @@ const quotes = [
     "author": "Unknown",
     "quote": "Another person's success is not your failure."
   },{
-    "author": "Dr. Frankenfurter, Rocky Horror Picture Show"
+    "author": "Dr. Frankenfurter, Rocky Horror Picture Show",
     "quote": "Don't dream it. Be it."
   }
 
-]
+];
+//Select random number to select random quote using index
+function randomSelector(arrayLength){
+  return Math.floor(Math.random() * arrayLength);
+}
+
+function generateQuote(){
+  let randomNumber = randomSelector(quotes.length);
+  document.getElementById('quoteOutput').innerHTML = '"' + quotes[randomNumber].quote + '"';
+  document.getElementById('authorOutput').innerHTML = "- " + quotes[randomNumber].author;
+}
