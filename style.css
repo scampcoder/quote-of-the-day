@@ -1,6 +1,7 @@
 body {
   background-image: url("img/openbook.jpg");
   background-size: cover;
+  font-family: 'Great Vibes', cursive;
 }
 div {
   text-align: center;
@@ -8,7 +9,6 @@ div {
 
 h1 {
   font-size: 80px;
-  font-family: Impact;
 }
 
 button {
