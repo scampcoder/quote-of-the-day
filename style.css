@@ -1,23 +1,27 @@
+body {
+  background-image: url("img/openbook.jpg");
+  background-size: cover;
+}
 div {
   text-align: center;
 }
 
-h1{
+h1 {
   font-size: 80px;
   font-family: Impact;
 }
 
-button{
+button {
   width: 250px;
   height: 80px;
   background-color: blue;
   color: white;
 }
 
-p{
+p {
   font-size: 35px;
 }
 
-button:hover{
+button:hover {
   background-color: green;
 }
