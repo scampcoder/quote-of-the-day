@@ -1,8 +1,10 @@
 body {
   background-image: url("img/openbook.jpg");
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
   font-family: 'Great Vibes', cursive;
-  
+  margin-bottom: 600px;
+
 }
 #main {
   margin-top: 200px;
